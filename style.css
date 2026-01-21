@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    padding: 50px;
+}
+
+body.dark {
+    background-color: #2a2a2a;
+    color: white;
+}
+
+body.light {
+    background-color: white;
+    color: black;
+}
+
+#themeBtn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#gameBox {
+    background-color: #1a1a1a;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+}
+
+body.light #gameBox {
+    background-color: #e0e0e0;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    width: 200px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 20px;
+}
